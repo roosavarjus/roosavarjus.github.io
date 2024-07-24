@@ -2,25 +2,22 @@ html {
     font-family: "Source Code Pro";
     font-weight: 300;
     font-size: 16px;
-    background-color: lightgray;
+    background-color: #a7ada0;
 }
 
+/* ------ HEADER ------- */
 header {
-  color: black;
+  color: #f0dcb8;
   display: flex;
   font-family: "DM Mono", monospace;
-  font-weight: 100;
-  background-color: lightslategrey;
+  font-weight: 200;
+  background-color: #1b4259;
   width: 100%;
   justify-content: space-between;
 }
-header h1 {
-  font-size: 3rem;
-}
-
-main {
-  color: navy;
-  text-align: center;
+header p {
+  font-size: 2.5rem;
+  padding-left: 2rem;
 }
 
 #navlist {
@@ -36,5 +33,34 @@ main {
   list-style: none;
   font-size: 1.5rem;
 }
+.links {
+  text-decoration: none;
+  color: #f3f1dd;
+}
+.links:visited {
+  color: #f3f1dd;
+}
+/* ------ MAIN ------- */
+main {
+  color: #1b4259;
+  text-align: center;
+}
 
-  
+.intro {
+  padding-top: 10rem;
+  font-size: 1.5rem;
+}
+
+.intro h2 {
+  font-size: 2.5rem;
+}
+
+.intro span {
+  color: aliceblue;
+}
+
+.intro img {
+  width: 50rem;
+  height: auto;
+  border-radius: 2rem;
+}
