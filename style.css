@@ -64,3 +64,13 @@ main {
   height: auto;
   border-radius: 2rem;
 }
+/* ------ABOUT------- */
+.about {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+h1 .about {
+  padding-bottom: 2rem;
+  font-size: 2.5rem;
+}
